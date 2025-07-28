@@ -71,12 +71,11 @@ nav {
     text-align: center;
     color: white;
     z-index: 50;
-    background-image: url('./background.jpg');
     background-size: cover;
     background-position: center;
   }
   
-  /* #banner-area::before {
+  #banner-area::before {
     content: '';
     position: absolute;
     top: 0;
@@ -88,7 +87,7 @@ nav {
     background-position: center;
     animation: slideIn 1s ease-out;
   }
-   */
+  
   @keyframes slideIn {
     from { transform: translateX(-100%); }
     to { transform: translateX(0); }
